@@ -31,7 +31,11 @@ function backapi1(){
 }
 
 function backapi2(){
-	$.mobile.changePage( "./activity_personal_injuries1.html", { transition: "flip"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_lp_reg.html", { transition: "flip"/**, changeHash: false**/ });
+}
+
+function backapi3(){
+	$.mobile.changePage( "./activity_lp_anx.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backasa1(){
@@ -39,7 +43,11 @@ function backasa1(){
 }
 
 function backasa2(){
-	$.mobile.changePage( "./activity_sexual_abuse1.html", { transition: "flip"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_ds_reg1.html", { transition: "flip"/**, changeHash: false**/ });
+}
+
+function backasa3(){
+	$.mobile.changePage( "./activity_ds_anx1.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backaca1a(){
@@ -321,7 +329,7 @@ function goPersonalInjuries1(){
 	var myCheck8 = document.getElementById('myCheck8');
 	var myCheck9 = document.getElementById('myCheck9');
 	if (myCheck1.checked && myCheck2.checked && myCheck3.checked && myCheck4.checked && myCheck5.checked && myCheck6.checked && myCheck7.checked && myCheck8.checked && myCheck9.checked){
-		$.mobile.changePage("./activity_personal_injuries1.html",{ transition: "slidefade" });
+		$.mobile.changePage("./activity_lp_reg.html",{ transition: "slidefade" });
 	}else{
 		$( "#myPopupDiv" ).popup( "open" );
 		var delay=2000;//1 seconds
@@ -333,6 +341,10 @@ function goPersonalInjuries1(){
 }
 
 function goPersonalInjuries2(){
+	$.mobile.changePage("./activity_lp_anx.html",{ transition: "slidefade"});
+}
+
+function goPersonalInjuries3(){
 	$.mobile.changePage("./activity_personal_injuries2.html",{ transition: "slidefade"});
 }
 
@@ -376,7 +388,7 @@ function goSexualAbuse1(){
 	var myCheck8 = document.getElementById('myCheck8');
 	var myCheck9 = document.getElementById('myCheck9');
 	if (myCheck1.checked && myCheck2.checked && myCheck3.checked && myCheck4.checked && myCheck5.checked && myCheck6.checked && myCheck7.checked && myCheck8.checked && myCheck9.checked){
-		$.mobile.changePage("./activity_sexual_abuse1.html",{ transition: "slide" });
+		$.mobile.changePage("./activity_ds_reg1.html",{ transition: "slide" });
 	}else{
 		$( "#myPopupDiv" ).popup( "open" );
 			var delay=2000;//1 seconds
@@ -388,6 +400,14 @@ function goSexualAbuse1(){
 }
 
 function goSexualAbuse2(){
+	$.mobile.changePage("./activity_ds_anx.html", { transition: "slide" });
+}
+
+function goSexualAbuse3(){
+	$.mobile.changePage("./activity_ds_anx2.html", { transition: "slide" });
+}
+
+function goSexualAbuse4(){
 	$.mobile.changePage("./activity_sexual_abuse2.html", { transition: "slide" });
 }
 
