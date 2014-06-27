@@ -50,6 +50,10 @@ function backasa3(){
 	$.mobile.changePage( "./activity_ds_anx1.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
+function backasa4(){
+	$.mobile.changePage( "./activity_ds_anx2.html", { transition: "flip"/**, changeHash: false**/ });
+}
+
 function backaca1a(){
 	$.mobile.changePage( "./activity_clinic_age.html", { transition: "flip"/**, changeHash: false**/ });
 }
