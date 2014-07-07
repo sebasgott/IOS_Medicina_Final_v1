@@ -1,3 +1,16 @@
+//---------------------------------------------------- Función para detectar y arreglar header en iOS 7 o posterior ----------------------------------------------------
+function onDeviceReady() {
+   if (parseFloat(window.device.version) >= 7.0) {
+      $('H1').each(function() {
+         // `this` is the h1, the padding goes on the
+         // containing header div.
+         $(this).parent().css("padding-top", "20px");
+         // sort any buttons/icons rendered from A tags too
+         $(this).siblings('A').css("margin-top", "20px");
+      });
+   }
+}
+
 //---------------------------------------------------- HOJA DE MANEJO DE SCRIPTS DE APLICACION ----------------------------------------------------
 
 //FUNCIÓN PARA QUE AL INSTANTE DE OPRIMIR EL BOTON "INICIAR" EN EL MENU PRINCIPAL, SE DIRIJA A LA SEGUNDA PANTALLA
