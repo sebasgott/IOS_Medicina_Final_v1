@@ -13,296 +13,296 @@ function goMenu1(){
 
 //FUNCIÓN PARA QUE AL OPRIMIR EL BOTÓN "ATRÁS" EN EL HEADER DEL MENÚ PRINCIPAL, REGRESE A LA PORTADA
 function backamh(){
-	$.mobile.changePage( "../activity_home.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "../activity_home.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 //FUNCIÓN PARA QUE AL OPRIMIR EL BOTÓN "ATRÁS" EN EL HEADER DEL MENÚ "CLINICA FORENSE", REGRESE AL MENÚ PRINCIPAL
 function backapc(){
-	$.mobile.changePage( "./activity_menu_home.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_menu_home.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 //FUNCIÓN PARA QUE AL OPRIMIR EL BOTÓN "ATRÁS" EN EL HEADER DEL MENÚ "LESIONES PERSONALES" EN CLÍNICA FORENSE, REGRESE AL MENÚ PRINCIPAL DE LA SECCIÓN "CLÍNICA FORENSE"
 function backapi(){
-	$.mobile.changePage( "./activity_phorensic_clinic.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_phorensic_clinic.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backapi1(){
-	$.mobile.changePage( "./activity_personal_injuries.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_personal_injuries.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backapi2(){
-	$.mobile.changePage( "./activity_lp_reg.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_lp_reg.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backapi3(){
-	$.mobile.changePage( "./activity_lp_anx.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_lp_anx.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backasa1(){
-	$.mobile.changePage( "./activity_sexual_abuse.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_sexual_abuse.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backasa2(){
-	$.mobile.changePage( "./activity_ds_reg1.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_ds_reg1.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backasa3(){
-	$.mobile.changePage( "./activity_ds_anx.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_ds_anx1.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backasa4(){
-	$.mobile.changePage( "./activity_ds_anx2.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_ds_anx2.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backaca1a(){
-	$.mobile.changePage( "./activity_clinic_age.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_clinic_age.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backaca1b(){
-	$.mobile.changePage( "./activity_ec_reg1.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_ec_reg1.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backaca2(){
-	$.mobile.changePage( "./activity_ec_anx.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_ec_anx.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 
 function backad1a(){
-	$.mobile.changePage( "./activity_drunk.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_drunk.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backad1b(){
-	$.mobile.changePage( "./activity_ebz_reg.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_ebz_reg.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backad2(){
-	$.mobile.changePage( "./activity_ebz_anx.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_ebz_anx.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backagf1(){
-	$.mobile.changePage( "./activity_autopsies.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_autopsies.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backagf2(){
-	$.mobile.changePage( "./activity_gun_fire1.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_gun_fire1.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backagf3(){
-	$.mobile.changePage( "./activity_gun_fire2.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_gun_fire2.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backagf4(){
-	$.mobile.changePage( "./activity_gun_fire3.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_gun_fire3.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backagf5(){
-	$.mobile.changePage( "./activity_gun_fire4.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_gun_fire4.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backafc(){
-	$.mobile.changePage( "./activity_gun_fire5.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_gun_fire5.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backak2(){
-	$.mobile.changePage( "./activity_knife1.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_knife1.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backak3(){
-	$.mobile.changePage( "./activity_knife2.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_knife2.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backak4(){
-	$.mobile.changePage( "./activity_knife3.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_knife3.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backak5(){
-	$.mobile.changePage( "./activity_knife4.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_knife4.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backafc1(){
-	$.mobile.changePage( "./activity_knife5.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_knife5.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backaa2(){
-	$.mobile.changePage( "./activity_adult1.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_adult1.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backaa3(){
-	$.mobile.changePage( "./activity_adult2.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_adult2.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backaa4(){
-	$.mobile.changePage( "./activity_adult3.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_adult3.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backaa5(){
-	$.mobile.changePage( "./activity_adult4.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_adult4.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backafc2(){
-	$.mobile.changePage( "./activity_adult5.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_adult5.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backacm(){
-	$.mobile.changePage( "./activity_child1.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_child1.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backacb2(){
-	$.mobile.changePage( "./activity_childmenu.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_childmenu.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backacb3(){
-	$.mobile.changePage( "./activity_childborn2.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_childborn2.html", { transition: "flip"/**, changeHash: false**/ });
 }
 function backacb4(){
-	$.mobile.changePage( "./activity_childborn3.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_childborn3.html", { transition: "flip"/**, changeHash: false**/ });
 }
 function backacb5(){
-	$.mobile.changePage( "./activity_childborn4.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_childborn4.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backafc3acb(){
-	$.mobile.changePage( "./activity_childborn5.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_childborn5.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backacl3(){
-	$.mobile.changePage( "./activity_childlact2.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_childlact2.html", { transition: "flip"/**, changeHash: false**/ });
 }
 function backacl4(){
-	$.mobile.changePage( "./activity_childlact3.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_childlact3.html", { transition: "flip"/**, changeHash: false**/ });
 }
 function backacl5(){
-	$.mobile.changePage( "./activity_childlact4.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_childlact4.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backafc3acl(){
-	$.mobile.changePage( "./activity_childlact5.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_childlact5.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backacs3(){
-	$.mobile.changePage( "./activity_childschool2.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_childschool2.html", { transition: "flip"/**, changeHash: false**/ });
 }
 function backacs4(){
-	$.mobile.changePage( "./activity_childschool3.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_childschool3.html", { transition: "flip"/**, changeHash: false**/ });
 }
 function backacs5(){
-	$.mobile.changePage( "./activity_childschool4.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_childschool4.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backafc3acs(){
-	$.mobile.changePage( "./activity_childschool5.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_childschool5.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 
 function backacsm(){
-	$.mobile.changePage( "./activity_crash1.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_crash1.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backacd2(){
-	$.mobile.changePage( "./activity_crashmenu.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_crashmenu.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backacd3(){
-	$.mobile.changePage( "./activity_crashdriver2.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_crashdriver2.html", { transition: "flip"/**, changeHash: false**/ });
 }
 function backacd4(){
-	$.mobile.changePage( "./activity_crashdriver3.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_crashdriver3.html", { transition: "flip"/**, changeHash: false**/ });
 }
 function backacd5(){
-	$.mobile.changePage( "./activity_crashdriver4.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_crashdriver4.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backafc4acd(){
-	$.mobile.changePage( "./activity_crashdriver5.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_crashdriver5.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backacp2(){
-	$.mobile.changePage( "./activity_crashmenu.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_crashmenu.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backacp3(){
-	$.mobile.changePage( "./activity_crashperson2.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_crashperson2.html", { transition: "flip"/**, changeHash: false**/ });
 }
 function backacp4(){
-	$.mobile.changePage( "./activity_crashperson3.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_crashperson3.html", { transition: "flip"/**, changeHash: false**/ });
 }
 function backacp5(){
-	$.mobile.changePage( "./activity_crashperson4.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_crashperson4.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backafc4acp(){
-	$.mobile.changePage( "./activity_crashperson5.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_crashperson5.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 //asphyxia
 function backaasm(){
-	$.mobile.changePage( "./activity_asphyxia1.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_asphyxia1.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backaascomp2(){
-	$.mobile.changePage( "./activity_asphyxiamenu.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_asphyxiamenu.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backaascomp3(){
-	$.mobile.changePage( "./activity_asphyxiacomp2.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_asphyxiacomp2.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backafc5aascomp(){
-	$.mobile.changePage( "./activity_asphyxiacomp3.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_asphyxiacomp3.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backaasrest3(){
-	$.mobile.changePage( "./activity_asphyxiarest2.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_asphyxiarest2.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backafc5aasrest(){
-	$.mobile.changePage( "./activity_asphyxiarest3.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_asphyxiarest3.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backaasint3(){
-	$.mobile.changePage( "./activity_asphyxiaint2.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_asphyxiaint2.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backafc5aasint(){
-	$.mobile.changePage( "./activity_asphyxiaint3.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_asphyxiaint3.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 
 function backaasinm3(){
-	$.mobile.changePage( "./activity_asphyxiainm2.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_asphyxiainm2.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backafc5aasinm(){
-	$.mobile.changePage( "./activity_asphyxiainm3.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_asphyxiainm3.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 //burn
 function backabm(){
-	$.mobile.changePage( "./activity_burn1.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_burn1.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backabh2(){
-	$.mobile.changePage( "./activity_burnmenu.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_burnmenu.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backabh3(){
-	$.mobile.changePage( "./activity_burnhumid2.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_burnhumid2.html", { transition: "flip"/**, changeHash: false**/ });
 }
 function backabh4(){
-	$.mobile.changePage( "./activity_burnhumid3.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_burnhumid3.html", { transition: "flip"/**, changeHash: false**/ });
 }
 function backafc6abh(){
-	$.mobile.changePage( "./activity_burnhumid4.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_burnhumid4.html", { transition: "flip"/**, changeHash: false**/ });
 }
 
 function backabd3(){
-	$.mobile.changePage( "./activity_burndry2.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_burndry2.html", { transition: "flip"/**, changeHash: false**/ });
 }
 function backabd4(){
-	$.mobile.changePage( "./activity_burndry3.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_burndry3.html", { transition: "flip"/**, changeHash: false**/ });
 }
 function backafc6abd(){
-	$.mobile.changePage( "./activity_burndry4.html", { transition: "slidefade"/**, changeHash: false**/ });
+	$.mobile.changePage( "./activity_burndry4.html", { transition: "flip"/**, changeHash: false**/ });
 }
 //FUNCIÓN PARA QUE AL OPRIMIR EL BOTÓN "HOME" EN EL HEADER, REGRESE AL MENÚ PRINCIPAL
 function home(){
