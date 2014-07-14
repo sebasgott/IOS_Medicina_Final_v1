@@ -35,8 +35,11 @@ section.three{
 }
 
 /**PROPIEDAD DE SECCIÓN "DIV" UBICADO EN FILA 1 DE 3**/
+#contenttitle{
+	position:absolute; left:0%; top:0%; height:10%; width:100%; z-index:1;
+}
 #contentabove{
-	position:absolute; left:0%; top:0%; height:33%; width:100%; z-index:1;
+	position:absolute; left:0%; top:10%; height:30%; width:100%; z-index:1;
 }
 
 #imagecenter{
@@ -45,12 +48,12 @@ section.three{
 
 /**PROPIEDAD DE SECCIÓN "DIV" UBICADO EN FILA 2 DE 3**/
 #contentmiddle{
-	position:absolute; left:0%; top:33%; height:33%; width:100%; z-index:1;
+	position:absolute; left:0%; top:40%; height:30%; width:100%; z-index:1;
 }
 
 /**PROPIEDAD DE SECCIÓN "DIV" UBICADO EN FILA 3 DE 3**/
 #contentbottom{
-	position:absolute; left:0%; top:66%; height:34%; width:100%; z-index:1;
+	position:absolute; left:0%; top:70%; height:30%; width:100%; z-index:1;
 }
 
 /**PROPIEDAD DE SECCIÓN "DIV" UBICADO EN FILA 1 DE 2**/
