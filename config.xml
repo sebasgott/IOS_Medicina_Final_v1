@@ -28,10 +28,10 @@ Asomef
 </gap:config-file>
 <!-- Icons -->
 
-<icon src="icon.png" />
-<icon src="icons/ios/icon.png" width="57" height="57" />
-<icon src="icons/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
-<icon src="icons/ios/icon_at_2x.png" width="114" height="114" />
+<icon src="appicon.png" />
+<icon src="icons/iphone/appicon.png" width="57" height="57" />
+<icon src="icons/iphone/appicon-72.png" gap:platform="ios" width="72" height="72" />
+<icon src="icons/iphone/appicon_at_2x.png" width="114" height="114" />
 
 <!-- Splash Screens -->
 <gap:splash src="splash.png" />
