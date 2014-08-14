@@ -30,6 +30,9 @@
 			<!--Botón para ingresar a la sección "Autopsias"-->
 			<button class="ui-btn ui-btn-b ui-shadow ui-corner-all btn_phorensic" onclick="goPhoresicChecklist()" data-theme="b"><strong style="overflow: visible !important; white-space: normal !important; font-size:15px;">AUTOPSIAS</strong></button>
 			<div>
+			<div class="contentbottom">
+			<a href="#popupDialog1" data-rel="popup" data-position-to="window" data-transition="pop" class="button ui-nodisc-icon ui-btn ui-btn-inline ui-btn-icon-right ui-corner-all" style="background:#233767; border:none;">Acerca de Medicina Forense</a>
+		</div>
 		</div>
 		<!--*********************************INICIO DE SECCIÓN POP-UP*******************************************************-->
 		<div data-role="popup" id="popupDialog" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
@@ -41,6 +44,18 @@
 				<p>Perderá todo lo realizado hasta el momento</p>
 				<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back">Declinar</a>
 				<button class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back" data-transition="flow" onclick="home()">Confirmar</button>
+			</div>
+		</div>
+		<!--*********************************INICIO DE SECCIÓN POP-UP PARA ABOUT *******************************************************-->
+		<div data-role="popup" id="popupDialog1" data-overlay-theme="b" data-theme="b" data-dismissible="false" style="max-width:400px;">
+			<div data-role="header" data-theme="b">
+				<h2>Acerca de:</h2>
+			</div>
+			<div role="main" class="ui-content">
+				<h3 class="ui-title">Medicina Forense</h3>
+				<p align="justify" style="font-size:15px;">Las Listas de Chequeo para autopsias forenses buscan informar al perito sobre las actividades que CON MAYOR FRECUENCIA SE OLVIDAN antes, durante y después de una necropsia medicolegal, según las diferentes causas de las mismas. Si ud tiene alguna sugerencia la atenderemos en nuestro correo asomef@gmail.com</p>
+				<p align="justify" style="font-size:15px;">Aplicación desarrollada por: Jhon Edison Alfonso V. y Sebastián Alejandro Garzón G. para ASOMEF</p>
+				<a href="#" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-btn-b" data-rel="back">Aceptar</a>
 			</div>
 		</div>
 	</div>
